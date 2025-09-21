@@ -1,0 +1,181 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+    position: relative;
+    background-image: url('./assets/bodybg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:auto;
+    width: auto;
+}
+.header{
+  background:rgba(116, 116, 183, 0.562);
+  height:150px;
+}
+.homepagelogo{
+  position:fixed;
+  height:20%;
+}
+.h1{
+  font-family:'Times New Roman';
+  margin-left: 15%;
+}
+.nav{
+  margin:0% 0% 0% 60%;
+}
+.nav-item{
+  color:white;
+  text-decoration:none;
+  margin-left:2%;
+  font-family:'Franklin Gothic Medium';
+}
+.nav-item:hover{
+ text-decoration:underline;
+ color:blue;
+}
+.h2{
+  font-family:'Franklin Gothic Medium';
+  margin-left:40%;
+}
+.h2:hover{
+  color:rgb(134, 74, 228);
+}
+.h6{
+  font-family:'Gill Sans';
+}
+.register{
+ position: absolute;
+ height:550px;
+ width:50%;
+ margin: 0% 0% 0% 25%;
+ background-color: rgba(240, 63, 93, 0.699);
+}
+.leftlabels{
+  margin-left:2%;
+}
+.middlelabels{
+  margin:0% 0% 0% 3%; 
+}
+.rightlabels{
+  margin:0% 0% 0% 3%;
+}
+.selectinputs{
+  padding:2% 140% 2% 0%;
+}
+.inputfields{
+  display: flex;
+  margin:2%;
+}
+.h3{
+ margin-left:40%;
+ padding-top: 2%;
+ font-family:'Franklin Gothic Medium';
+}
+.btn-primary{
+  margin: 1% 0% 0% 45%;
+}
+.h6-signup{
+  font-family:'Gill Sans';
+  margin:2% 0% 0% 30%;
+}
+.LoginPage{
+    position: absolute;
+    height:400px;
+    width:30%;
+    background-color: rgba(240, 63, 93, 0.699);
+    margin-left: 38%;
+}
+.btn-otp{
+
+  color: white;
+  background-color: blue;
+}
+.otpfield{
+  width:10%;
+}
+.links{
+  margin-left:10%;
+  text-decoration: none;
+  color: black;
+}
+.link{
+  margin-left: 50%;
+  text-decoration: none;
+  color: black;
+}
+.labels{
+  margin: 5%;
+}
+.texts{
+  font-size:15px;
+  margin: 3%;
+}
+.inputs{
+  padding: 0% 95% 3% 0%;
+}
+.frgtpswd{
+  margin-left: 56%;
+  text-decoration: none;
+  color: black;
+}
+.frgtpswd:hover{
+  text-decoration: underline;
+  color: blue;
+}
+.btn-login{
+  margin: 0% 0% 0% 35%;
+}
+.h6-login{
+ margin-left:18%;
+}
+.h1-loghead{
+  margin-left:40%;
+}
+/*home page*/
+.eventform{
+  display: flex;
+}
+.eventlft{
+  margin:0% 0% 10% 10%; 
+}
+.eventdivrgt{
+  margin-left: 10%;
+}
+.table-bordered{
+  background-color:rgba(231, 82, 19, 0.562); 
+  border: 5px black;
+}
+.btn-add{
+  color:white;
+  background-color: darksalmon;
+  border-color:darksalmon ;
+  margin-left:10%;
+}
+.btn-admin{
+  margin-left:61%;
+  color:white;
+  background-color: darksalmon;
+  border-color:darksalmon ;
+}
+.modal-btn{
+  display: flex;
+}
+.previous_achievements{
+  margin:0% 0% 0% 5%;
+}
+.textfield{
+ width: 100%;
+ padding-bottom: 10%;
+}
+.modal-submit{
+  color:white;
+  background-color:blue;
+  border-color: blue;
+  margin:2% 0% 2% 35%;
+  padding: 0% 10% 0% 10%;
+}
+.sports{
+  display: flex;
+}
